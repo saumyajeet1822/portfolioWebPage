@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icon for website -->
+
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo.png"> -->
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
+    <!-- <link rel="manifest" href="logo.png"> -->
+    
+
+    <title>Saumyajeet | Home</title>
+
+    <!-- Linking Fontawesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+    <!-- Linking Flickity -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <!-- >>>Change the header bg and add the gif remove the text -->
+    <header>
+        <div class="banner"></div>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <!-- >>>Change Home with the logo -->
+            <a href="#">
+                <img class="logo" src="logo.png" alt="Logo Saumyajeet Das">
+            </a>
+            <a class="menu-btn" href="#">YouTube</a>
+            <a class="menu-btn" href="#">Courses</a>
+            <a class="menu-btn" href="#">Study Material</a>
+            <a class="menu-btn" href="#">Practice Problems</a>
+            <a class="menu-btn flex-align-left" href="#">Login/SignUp</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2><span>Courses</span></h2>
+            <!-- Courses Carousel -->
+            <div class="carousel js-flickity" data-flickity='{"wrapAround": true }'>
+                <div class="carousel-cell"><video src="bankSys.mp4"
+                        poster="py.png" controls></video></div>
+                <div class="carousel-cell"><video src="vs.mp4"
+                        poster="visual.png" controls></video>
+                </div>
+                <div class="carousel-cell"><video src="java.mp4"
+                        poster="javah.png" controls></video></div>
+                <div class="carousel-cell"><video src="idle.mp4"
+                        poster="IDLE bank.png" controls></video></div>
+                <div class="carousel-cell"><video src="bank.mp4"
+                        poster="BNK.png" controls></video></div>
+            </div>
+        </section>
+
+        <section>
+            <h2><span>YouTube Channel</span></h2>
+            <!-- You Tube Caraousel -->
+            <div class="carousel js-flickity" data-flickity-options='{ "wrapAround": true }'>
+                <div class="carousel-cell iframe-container"><iframe src="https://www.youtube.com/embed/oX7qvhO-ShU"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="carousel-cell iframe-container"><iframe src="https://www.youtube.com/embed/BfAYaJR7aOg"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="carousel-cell iframe-container"><iframe src="https://www.youtube.com/embed/eZKWyJyqtlo"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+            </div>
+        </section>
+
+        <section class="study_material">
+            <h2><span>Study Material</span></h2>
+
+            <!-- Notes Carousel -->
+            <div class="carousel js-flickity" data-flickity-options='{ "wrapAround": true }'>
+                
+                <div class="carousel-cell">
+                    <a target="_blank"
+                        href="Design and algorithm _merged.pdf"><img
+                            class="img-responsive"
+                            src="DAA.png" alt=""></a>
+                </div>
+                <div class="carousel-cell">
+                    <a target="_blank" href="web application merged.pdf"><img
+                            class="img-responsive"
+                            src="Web app.png"></a>
+                </div>
+                <div class="carousel-cell">
+                    <a target="_blank" href="Operating System_merged.pdf"><img class="img-responsive"
+                            src="os.png"></a>
+                </div>
+                <div class="carousel-cell">
+                    <a target="_blank" href="Environmental waste_merged.pdf"><img class="img-responsive"
+                            src="EVS.png"></a>
+                </div>
+
+                <div class="carousel-cell">
+                    <a target="_blank" href="DBMS_merged.pdf"><img
+                            class="img-responsive"
+                            src="DBMS NOTES.png"></a>
+                </div>
+        </section>
+        <section class="our_founder">
+            <h2><span>DIRECTOR</span></h2>
+
+            <img class="profile_img" src="SD.jfif" alt="This is Saumyajeet Das">
+            <h3 class="profile_name">Saumyajeet Das</h3>
+            <div class="sm-handle">
+                <a class="yt_handle" href="https://www.youtube.com/channel/UCM3bZbOfesvMgnbDLP28x0w" target="_blank"
+                    rel="noopener noreferrer"><i class="fab fa-youtube fa-lg"></i>YouTube</a>
+                <a class="linkdn_handle" href="https://www.linkedin.com/in/saumyajeet1822/" target="_blank"
+                    rel="noopener noreferrer"><i class="fab fa-linkedin fa-lg"></i>LinkedIn</a>
+                <a class="insta_handle" href="http://www.instagram.com/saumyajeet_" target="_blank"
+                    rel="noopener noreferrer"><i class="fab fa-instagram fa-lg"></i>Instagram</a>
+            </div>
+
+            <div class="about_us">
+                <h4 class="about_title">Google Certified l GCP l BCA undergrad at Chandigarh University '24 | Founder Coder SD YouTube Channel </h4>
+                <h5 class="about_content">I prefer to constantly learn something new over being free. I was born in Prayagraj, Uttar Pradesh and brought up in military life, went to school in Kendriya Vidyalaya and college in Chandigarh. I love to read books and travel and also a passionate social worker, volunteering with internationally recognized organizations such as Robinhood Army and Make a Difference.
+                    I have previously worked Zonal Ambassador for National Institute of Technology silchar MUN and helped them by increasing awareness about MUN.
+                    BCA undergrad proficient in C, Python & Java. Fundamental understanding of Artificial Intelligence, Data Structures, Cyber Forensics. Created few personal projects using Python language and Python Libraries.
+                    Always looking forward to connecting!
+                    
+                    I completed a wide range of online certifications in AWS, AI, Basic Game Development. I believe these learnings will ease my transition in to MCA course work.</h5>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#">FAQ</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Refund Policy</a>
+        <a href="#" class="flex-align-left">&copy; 2023 | Saumyajeet Das</a>
+    </footer>
+
+    <!-- Flickity JS files -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+
+</html>
